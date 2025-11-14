@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+header{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.nav_principal ul{
+    display: flex;
+    gap:50px;
+    list-style: none;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    
+    & li a{
+        color: #264065;
+    }
+    & li:nth-child(5){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+    
+div.login ul{
+        display: flex;
+        gap:50px;
+        align-items: center;
+        margin-right: -10px;
+        list-style: none;
+        font-size: 14px;
+        & li:nth-child(3) a{
+            color: #264065;
+        }
+        & li:nth-child(4) a{
+            display: inline-block;
+            color: white;
+            background-color: #264065;
+            border-radius: 30px ;
+            padding:20px 40px;
+        }
+      }
+
